@@ -1,0 +1,64 @@
+/*imports*/
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+/*Variablse*/
+/*Header*/
+.nav-box {
+  width: 100%;
+  float: left; }
+  .nav-box h1 {
+    font: 20px "Quicksand", sans-serif;
+    margin: 30px 0 15px; }
+  .nav-box nav {
+    margin: 20px 0 0px;
+    margin-left: 25%; }
+    .nav-box nav a {
+      font: 15px "Quicksand", sans-serif;
+      padding-top: 10px;
+      list-style-type: none;
+      text-decoration: none;
+      text-align: center;
+      color: #000;
+      height: 50px;
+      background-color: white; }
+    .nav-box nav a:hover {
+      text-decoration: none;
+      cursor: pointer;
+      color: #FFF;
+      background-color: #b7dded; }
+
+.divide-line {
+  border: 1px solid #000; }
+
+.wrapper article {
+  margin-top: 50px;
+  height: 500px;
+  padding: 0px; }
+  .wrapper article .slide01 {
+    z-index: 10; }
+  .wrapper article .slide02 {
+    z-index: 20;
+    display: none; }
+  .wrapper article .slide03 {
+    z-index: 30;
+    display: none; }
+.wrapper aside {
+  margin-top: 50px;
+  background-color: #b7dded;
+  height: 200px;
+  padding: 0px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); }
+  .wrapper aside:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    cursor: pointer; }
+
+footer .divide-line {
+  border: 1px solid #000;
+  margin-top: 100px; }
+footer article {
+  margin-top: 0px;
+  height: 100px; }
+  footer article aside p {
+    font: 15px "Quicksand", sans-serif;
+    margin: 40px 0; }
