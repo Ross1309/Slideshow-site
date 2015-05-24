@@ -43,15 +43,30 @@
     display: none; }
 .wrapper aside {
   margin-top: 50px;
-  background-color: #b7dded;
+  background-color: #fff;
   height: 200px;
   padding: 0px;
   filter: grayscale(100%);
-  -webkit-filter: grayscale(100%); }
+  -webkit-filter: grayscale(100%);
+  z-index: 10;
+  float: left; }
   .wrapper aside:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     cursor: pointer; }
+    .wrapper aside:hover p {
+      display: none; }
+  .wrapper aside img {
+    position: relative; }
+  .wrapper aside p {
+    font: 18px "Quicksand", sans-serif;
+    position: absolute;
+    color: #fff;
+    width: 86%;
+    height: 10px;
+    top: 75px;
+    margin: 0 7%;
+    text-align: center; }
 
 footer .divide-line {
   border: 1px solid #000;
@@ -59,6 +74,28 @@ footer .divide-line {
 footer article {
   margin-top: 0px;
   height: 100px; }
+  footer article aside .facebook {
+    margin: 25px 0px; }
+    footer article aside .facebook a div {
+      cursor: pointer;
+      position: relative;
+      height: 50px;
+      width: 50px;
+      background-repeat: no-repeat;
+      background-image: url("/Images/Facebook_slidehow_site.png"); }
+    footer article aside .facebook a div:hover {
+      background-position: 0px -50px; }
+  footer article aside .twitter {
+    margin: 25px 0px; }
+    footer article aside .twitter a div {
+      cursor: pointer;
+      position: relative;
+      height: 50px;
+      width: 50px;
+      background-repeat: no-repeat;
+      background-image: url("/Images/Twitter_slideshow_site.png"); }
+    footer article aside .twitter a div:hover {
+      background-position: 0px -50px; }
   footer article aside p {
     font: 15px "Quicksand", sans-serif;
     margin: 40px 0; }
