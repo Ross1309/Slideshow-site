@@ -5,6 +5,11 @@
 $font-title: 'Quicksand', sans-serif;
 
 /*Header*/
+.nav-box {
+    a {
+        color: #000;   
+    }
+}
 
 .nav-box {
     width: 100%;
@@ -104,7 +109,7 @@ footer {
                        height: 50px;
                        width: 50px;
                        background-repeat: no-repeat;
-                       background-image: url("/Images/Facebook_slidehow_site.png");
+                       background-image: url("../Slideshow-site/Images/Facebook_slidehow_site.png");
                    }
                     div:hover {
                         background-position: 0px -50px;  
@@ -120,7 +125,7 @@ footer {
                        height: 50px;
                        width: 50px;
                        background-repeat: no-repeat;
-                       background-image: url("/Images/Twitter_slideshow_site.png");
+                       background-image: url("../Slideshow-site/Images/Twitter_slideshow_site.png");
                    }
                     div:hover {
                         background-position: 0px -50px;  
